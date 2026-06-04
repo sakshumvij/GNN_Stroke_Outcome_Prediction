@@ -12,7 +12,7 @@ connectivity matrices from the ROSE dataset:
 3. Clinical Baseline — logistic regression on demographic and clinical features
 4. LASSO Connectivity — L1-regularised regression on flattened connectivity matrices
 
-A post-hoc edge importance explainer identifies nodes and edges with 
+A post-training edge importance explainer identifies nodes and edges with 
 greatest impact on model prediction.
 
 ## Requirements
@@ -33,7 +33,7 @@ pip install tensorflow "tensorflow-gnn>=1.0.0" nilearn scikit-learn scipy pandas
 ## Data
 Required files:
 - Structural connectivity matrices (.mat) — one per subject
-- ROSE_connectivity_binary_mRS.csv — subject IDs and binarized mRS labels
+- Label CSV — subject IDs and binarized mRS labels
 - Clinical CSV — ICH volume and location per subject
 - HCP/SUIT/FreeSurfer atlas CSV — ROI names and MNI coordinates
 
