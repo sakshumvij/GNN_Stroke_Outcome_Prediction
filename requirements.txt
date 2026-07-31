@@ -1,0 +1,9 @@
+tensorflow>=2.0
+tensorflow-gnn>=1.0.0
+nilearn
+scikit-learn
+scipy
+pandas
+numpy
+matplotlib
+seaborn
