@@ -1,6 +1,6 @@
 # GNN Stroke Outcome Prediction
 
-Predicting 90-day functional outcome (mRS) following hemorrhagic stroke using 
+Predicting 90-day functional outcome (mRS) following intracerebral hemorrhage (ICH) using 
 structural brain connectivity and graph neural networks.
 
 ## Overview
