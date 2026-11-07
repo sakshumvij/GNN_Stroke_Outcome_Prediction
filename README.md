@@ -43,9 +43,7 @@ Update the path configuration variables at the top of each model cell
 to point to your local data files, then run cells in order.
 
 ## Output
-Each model cell saves:
-- Model weights (.weights.h5)
-- Performance plot with ROC curve, bootstrap AUC distribution, and metric summary (.png)
+Each model cell saves model weights
 
 The explainer cell additionally saves:
 - 2-D glass brain connectivity plot (.png)
